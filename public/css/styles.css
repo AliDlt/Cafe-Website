@@ -1,28 +1,82 @@
+@font-face {
+  font-family: "Casa";
+  src: url("/fonts/Far_Casablanca.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Casa", sans-serif;
+}
+
+html {
+  direction: rtl;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+}
+
+button {
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 25px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: rgb(255, 195, 1);
-  max-width: 800px;
-  height: 85vh;
-  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 25px;
+  padding: 50px;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .home-img {
+  display: inline-block;
+  vertical-align: middle;
   object-fit: cover;
   width: 256px;
   overflow: hidden;
 }
 
 .home-btn {
-  padding: 15px;
+  display: inline-block;
+  vertical-align: middle;
   outline: none;
   border: 0;
   border-radius: 8px;
-  background-color: brown;
+  background-color: #80482f;
   font-size: x-large;
   color: white;
+  height: fit-content;
+
+  img {
+    width: 64px;
+    margin-left: 5px;
+  }
 }
 /* Mobile Styles */
 @media screen and (max-width: 600px) {

@@ -1,0 +1,21 @@
+{
+  "businessInfo": {
+    "name": "کافه کمال",
+    "colors": ["#FF0000", "#00FF00", "#0000FF"],
+    "logo": "/img/defaultLogo.png"
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Product 1",
+      "price": 10.99,
+      "description": "Description of Product 1"
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "price": 20.99,
+      "description": "Description of Product 2"
+    }
+  ]
+}
