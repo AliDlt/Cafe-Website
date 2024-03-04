@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 195, 1);
+  max-width: 800px;
+  height: 85vh;
+  margin: auto;
+}
+
+.home-img {
+  object-fit: cover;
+  width: 256px;
+  overflow: hidden;
+}
+
+.home-btn {
+  padding: 15px;
+  outline: none;
+  border: 0;
+  border-radius: 8px;
+  background-color: brown;
+  font-size: x-large;
+  color: white;
+}
+/* Mobile Styles */
+@media screen and (max-width: 600px) {
+  /* CSS rules for mobile screens */
+}
+
+/* Tablet Styles */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  /* CSS rules for tablet screens */
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 1025px) {
+  /* CSS rules for desktop screens */
+}
