@@ -1,0 +1,38 @@
+<div class="menu-container">
+    <div class="menu-main">
+        <% data.categories.forEach(category=> { %>
+            <h3 style="color: black;">
+                <%= category.name%>
+            </h3>
+            <hr style="color: black;">
+            <% category.products.forEach(product=> { %>
+                <a class="product-card">
+                    <img class="product-img" src="<%= product.image %>">
+                    <div class="product-card-description">
+                        <h3 class="product-title">
+                            <%= product.name %>
+                        </h3>
+                        <p class="product-description">
+                            <%= product.description %>
+                        </p>
+                        <span class="product-price">
+                            <%= product.price %>
+                        </span>
+                    </div>
+
+                </a>
+                <% }); %>
+                    <% }); %>
+    </div>
+    <div class="menu-category">
+        <a href="/"><button class="menu-back">بازگشت</button></a>
+        <% data.categories.forEach(category=> { %>
+            <a class="category-container">
+                <img class="category-img" src="<%= category.image %>">
+                <p class="category-text">
+                    <%= category.name %>
+                </p>
+            </a>
+            <% }); %>
+    </div>
+</div>

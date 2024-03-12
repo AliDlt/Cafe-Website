@@ -1,21 +1,156 @@
 {
   "businessInfo": {
-    "name": "کافه کمال",
-    "colors": ["#FF0000", "#00FF00", "#0000FF"],
+    "name": "کافه رویا",
+    "colors": ["#FF5733", "#FFC300", "#C70039"],
     "logo": "/img/defaultLogo.png"
   },
-  "products": [
+  "categories": [
     {
       "id": 1,
-      "name": "Product 1",
-      "price": 10.99,
-      "description": "Description of Product 1"
+      "name": "نوشیدنی‌ها",
+      "image": "/img/categories/drinks.png",
+      "products": [
+        {
+          "id": 1,
+          "name": "قهوه اسپرسو",
+          "price": 15.99,
+          "description": "اسپرسو با طعم غنی و خوشمزه",
+          "image": "/img/products/galaxy.jpeg"
+        },
+        {
+          "id": 2,
+          "name": "قهوه اسپرسو",
+          "price": 15.99,
+          "description": "اسپرسو با طعم غنی و خوشمزه",
+          "image": "/img/products/galaxy.jpeg"
+        }
+      ]
     },
     {
       "id": 2,
-      "name": "Product 2",
-      "price": 20.99,
-      "description": "Description of Product 2"
+      "name": "شیک ها",
+      "image": "/img/categories/shakes.png",
+      "products": [
+        {
+          "id": 1,
+          "name": "قهوه اسپرسو",
+          "price": 15.99,
+          "description": "اسپرسو با طعم غنی و خوشمزه",
+          "image": "/img/products/galaxy.jpeg"
+        },
+        {
+          "id": 2,
+          "name": "قهوه اسپرسو",
+          "price": 15.99,
+          "description": "اسپرسو با طعم غنی و خوشمزه",
+          "image": "/img/products/galaxy.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "چای",
+      "image": "/img/categories/tea.png",
+      "products": [
+        {
+          "id": 1,
+          "name": "قهوه اسپرسو",
+          "price": 15.99,
+          "description": "اسپرسو با طعم غنی و خوشمزه",
+          "image": "/img/products/galaxy.jpeg"
+        },
+        {
+          "id": 2,
+          "name": "قهوه اسپرسو",
+          "price": 15.99,
+          "description": "اسپرسو با طعم غنی و خوشمزه",
+          "image": "/img/products/galaxy.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "کیک",
+      "image": "/img/categories/cake.png",
+      "products": [
+        {
+          "id": 1,
+          "name": "قهوه اسپرسو",
+          "price": 15.99,
+          "description": "اسپرسو با طعم غنی و خوشمزه",
+          "image": "/img/products/galaxy.jpeg"
+        },
+        {
+          "id": 2,
+          "name": "قهوه اسپرسو",
+          "price": 15.99,
+          "description": "اسپرسو با طعم غنی و خوشمزه",
+          "image": "/img/products/galaxy.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "قهوه",
+      "image": "/img/categories/coffee.png",
+      "products": [
+        {
+          "id": 1,
+          "name": "قهوه اسپرسو",
+          "price": 15.99,
+          "description": "اسپرسو با طعم غنی و خوشمزه",
+          "image": "/img/products/galaxy.jpeg"
+        },
+        {
+          "id": 2,
+          "name": "قهوه اسپرسو",
+          "price": 15.99,
+          "description": "اسپرسو با طعم غنی و خوشمزه",
+          "image": "/img/products/galaxy.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "موکتل",
+      "image": "/img/categories/mocktail.png",
+      "products": [
+        {
+          "id": 1,
+          "name": "قهوه اسپرسو",
+          "price": 15.99,
+          "description": "اسپرسو با طعم غنی و خوشمزه",
+          "image": "/img/products/galaxy.jpeg"
+        },
+        {
+          "id": 2,
+          "name": "قهوه اسپرسو",
+          "price": 15.99,
+          "description": "اسپرسو با طعم غنی و خوشمزه",
+          "image": "/img/products/galaxy.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "سودا",
+      "image": "/img/categories/soda.png",
+      "products": [
+        {
+          "id": 1,
+          "name": "قهوه اسپرسو",
+          "price": 15.99,
+          "description": "اسپرسو با طعم غنی و خوشمزه",
+          "image": "/img/products/galaxy.jpeg"
+        },
+        {
+          "id": 2,
+          "name": "قهوه اسپرسو",
+          "price": 15.99,
+          "description": "اسپرسو با طعم غنی و خوشمزه",
+          "image": "/img/products/galaxy.jpeg"
+        }
+      ]
     }
   ]
 }
